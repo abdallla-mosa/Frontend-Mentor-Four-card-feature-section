@@ -144,9 +144,15 @@ body,p{
     .grid{
         display: grid;
         grid-template-columns: 1fr;
-        
+        max-height:100%;
+width:100%;
 }
 .center{
     max-height: 100%;
+    padding-top:0;
+}
+ .center >div h1:nth-child(1){
+    font-size:27px;
+}
 }
 }
